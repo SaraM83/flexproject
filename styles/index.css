@@ -1,64 +1,234 @@
 .main_container {
-    flex-wrap: wrap;
     display: flex;
+    flex-wrap: wrap;
     background-color: indianred;
-    width: 1600px;
+    width: 1200px;
     min-height: 100vh; 
-    align-items: center;
+    align-content: center;
     justify-content: space-evenly;
-
 }
 
 .first_block {
     display: flex;
+    flex-direction: row;
     background-color: orange;
-    width: 400px;
-    height: 160px;
-    justify-content: space-evenly;
-    justify-content: flex-end;
+    align-items: flex-end;
+    width: 480px;
+    height: 180px;
+    justify-content: flex-start;
+    margin: 10px; 
 }
 
 .item1 {
     display: flex;
     background-color: mediumblue;
-    width: 78px;
-    height: 78px;
+    width: 60px;
+    height: 60px;
     border-color: black solid;
+    padding: 10px; 
+    margin: 10px;
 }
 
-/*
+.item2 {
+    display: flex;
+    background-color: mediumblue;
+    width: 60px;
+    height: 60px;
+    border-color: black solid;
+    padding: 10px; 
+    margin: 10px;
+}
+
+.item3 {
+    display: flex;
+    background-color: mediumblue;
+    width: 60px;
+    height: 60px;
+    border-color: black solid;
+    padding: 10px; 
+    margin: 10px;
+}
+
 .sec_block {
     display: flex;
     background-color: green;
-    width: 400px;
-    height: 160px;
+    width: 480px;
+    height: 180px;
+    align-items: stretch;
+    justify-content: center;
+    margin: 10px; 
 }
+
+.item4 {
+    display: flex;
+    background-color: blueviolet;
+    width: 60px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.item5 {
+    display: flex;
+    background-color: blueviolet;
+    width: 60px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.item6 {
+    display: flex;
+    background-color: blueviolet;
+    width: 60px;
+    padding: 10px;
+    margin: 10px;
+}
+
 
 .third_block {
     display: flex;
     background-color: grey;
-    width: 400px;
-    height: 160px;
+    width: 480px;
+    height: 180px;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 10px;
+}
+
+.item7 {
+    display: flex;
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.item8 {
+    display: flex;
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.item9 {
+    display: flex;
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin: 10px;
 }
 
 .fourth_block {
     display: flex;
     background-color: rebeccapurple;
-    width: 400px;
-    height: 160px;
+    width: 480px;
+    height: 180px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.item10 {
+    display: flex;
+    background-color: pink;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.item11 {
+    display: flex;
+    background-color: pink;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.item12 {
+    display: flex;
+    background-color: pink;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin: 10px;
+    align-self: flex-end;
 }
 
 .fifth_block {
     display: flex;
     background-color: lightgray;
-    width: 400px;
-    height: 160px;
+    width: 480px;
+    height: 180px;
+    align-items: stretch;
+    justify-content: center;
+    margin: 10px;
+}
+
+.item13 {
+    display: flex;
+    background-color: yellow;
+    width: 60px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.item14 {
+    display: flex;
+    background-color: yellow;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin: 10px;
+    align-self: center;
+}
+
+.item15 {
+    display: flex;
+    background-color: yellow;
+    width: 60px;
+    padding: 10px;
+    margin: 10px;
 }
 
 .sixth_block {
     display: flex;
     background-color: lightsteelblue;
-    width: 400px;
-    height: 160px;
+    width: 480px;
+    height: 180px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
 }
-*/
+
+.item16 {
+    display: flex;
+    background-color: purple;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.item17 {
+    display: flex;
+    background-color: purple;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin: 10px;
+    flex-grow: 2;
+}
+
+.item18 {
+    display: flex;
+    background-color: purple;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin: 10px;
+}
